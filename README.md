@@ -1,10 +1,12 @@
 # PyperformancBenchmarkOptimization 🚀
 
 Final Project of the Technion course 00460882 — Improving the performance of the pyaescrypto & gc_collect.
+Submited by Tom Jacob and Yuval Mendel. 
 
 This subfolder contains self-contained scripts to validate, benchmark, and profile multiple AES implementations (original PyAES, NumPy/Numba, PyCryptodome, C AES-NI, and Cython AES-NI)
-
 It also has the GC collect baseline and optimized.
+
+Final report is also attached here, showing performance analysis and comparison as well as some optimizing technics that weren't used and what they taught us. 
 
 ## Structure 🗂️
 - `pyaes/` 
